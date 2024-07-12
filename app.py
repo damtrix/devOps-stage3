@@ -78,4 +78,4 @@ def index():
     return "No valid parameters provided."
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
