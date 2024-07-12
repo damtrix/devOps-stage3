@@ -3,10 +3,10 @@ import smtplib
 
 @celery.task
 def send_email(recipient):
-    smtp_server = 'smtp.example.com'
+    smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    sender_email = 'your_email@example.com'
-    sender_password = 'your_password'
+    sender_email = 'oludamolaonarinde6@gmail.com'
+    sender_password = 'xoxrtsheibisonuk'
 
     message = f"Subject: Hi there\n\nThis message is sent from Python."
 
